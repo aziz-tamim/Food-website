@@ -1,0 +1,65 @@
+.chooseus {
+    background-color: $color-primary;
+
+    .tag {
+        a {
+            color: $color-white;
+        }
+    }
+
+    .heading2 {
+        color: $color-white;
+    }
+}
+
+////////// mission start
+.mission {
+    background-color: $color-secondary;
+    .tag {
+        text-align: center;
+    }
+    .t-center {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .heading2 {
+        @media only screen and (max-width: 1198px) {
+            font-size: 40px;
+        }
+        @media only screen and (max-width: 927px) {
+            font-size: 35px;
+        }
+        @media only screen and (max-width: 589px) {
+            font-size: 28px;
+        }
+    }
+    .btn__primary {
+        text-align: center;
+        margin-bottom: 40px;
+        a {
+            background-color: $color-primary;
+            color: $color-white;
+            &:hover {
+                background-color: $color-black;
+            }
+        }
+    }
+
+    &__content {
+        padding: 30px;
+    }
+
+    &__img {
+        margin-bottom: 20px;
+    }
+
+    &__title {
+        font-size: 20px;
+        font-weight: 600;
+        color: $color-primary;
+        margin-bottom: 15px;
+    }
+    .text { 
+        color: $color-primary;
+    }
+}

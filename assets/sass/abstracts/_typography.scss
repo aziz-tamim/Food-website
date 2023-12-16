@@ -1,0 +1,45 @@
+.section-padding1 {
+    padding: 70px 0;
+}
+.section-padding2 {
+    padding: 80px 0;
+}
+.section-padding3 {
+    padding: 50px 0;
+}
+.tag {
+    margin-bottom: 10px;
+    a {
+        font-weight: 400;
+        font-size: 16px;
+        text-decoration: none;
+        color: $color-primary;
+    }
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    color: $color-white;
+    letter-spacing: 0.10px;
+    margin-bottom: 20px;
+}
+
+.btn__primary {
+    margin-bottom: 20px;
+    a {
+        text-decoration: none;
+        padding: 15px 30px;
+        background-color: $color-secondary;
+        color: $color-primary;
+        font-size: 17px;
+        font-weight: 600;
+        text-transform: uppercase;
+        transition: all 0.3s;
+        display: inline-block;
+        &:hover {
+            background-color: $color-black;
+            color: $color-white;
+        }
+    }
+}

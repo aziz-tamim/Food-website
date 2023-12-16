@@ -1,0 +1,31 @@
+.about {
+    &__content {
+        padding: 40px 40px;
+
+        h1 {
+            @media only screen and (max-width: 873px) {
+                font-size: 40px;
+            }
+
+            @media only screen and (max-width: 605px) {
+                font-size: 26px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    &__text {
+        color: $color-primary;
+    }
+
+    .btn__primary {
+        a {
+            background-color: $color-primary;
+            color: $color-white;
+            &:hover {
+                background-color: $color-secondary;
+                color: $color-black;
+            }
+
+        }
+    }
+}

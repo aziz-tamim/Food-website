@@ -1,0 +1,73 @@
+.planted {
+    background-image: url("/assets/img/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right;
+    background-color: $color-primary;
+    @media only screen and (max-width: 1204px) {
+        background-image: none;
+    }
+
+    &__item {
+        h1 {
+            color: $color-white;
+            font-weight: 600;
+            font-size: 52px;
+            margin: 0;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            @media only screen and (max-width: 763px) {
+                font-size: 40px;
+            }
+            @media only screen and (max-width: 508px) {
+                font-size: 35px;
+            }
+        }
+        &__tag {
+            &.tag {
+                a {
+                    color: $color-white;
+                }
+            }
+        }
+    }
+}
+
+.planted__bottom {
+    background-color: $color-secondary;
+    .planted__card {
+        display: grid;
+        grid-template-columns: 70px 1fr;
+        gap: 20px;
+        &__icon {
+            width: 70px;
+            height: 70px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            background-color: #f1f1f1;
+            margin-right: 20px;
+            border-radius: 50%;
+            i {
+                font-size: 30px;
+                color: $color-primary;
+            }
+        }
+        &__text {
+            h3 {
+                font-size: 20px;
+                font-weight: 600;
+                color: $color-primary;
+            }
+
+            .text {
+                color: $color-primary;
+                margin-bottom: 0;
+            }
+        }
+
+        @media only screen and (max-width: 899px) {
+            margin-bottom: 20px;
+        }
+    }
+}

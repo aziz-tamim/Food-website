@@ -1,0 +1,129 @@
+////////// blog start
+.blog {
+    background-color: $color-secondary;
+
+    &__heading {
+        .heading2 {
+            margin-bottom: 45px;
+            @media only screen and (max-width: 663px) {
+                font-size: 40px;
+            }
+        }
+    }
+
+    &__item {
+        margin-bottom: 20px;
+        img {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        h3 {
+            font-size: 25px;
+            font-weight: 600;
+            margin: 0;
+            margin-bottom: 10px;
+            color: $color-primary;
+        }
+        .text {
+            color: $color-primary;
+            margin-bottom: 0;
+        }
+    }
+}
+////////// blog ends
+
+////////// cta start
+.cta {
+    background-image: url("/assets/img/cta.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    object-fit: cover;
+    &__item {
+        text-align: center;
+        margin: 0 auto;
+        .heading2 {
+            color: $color-white;
+        }
+
+        .text {
+            margin-bottom: 30px;
+        }
+    }
+}
+////////// cta ends
+
+////////// footer start
+.footer {
+    padding-top: 80px;
+    &__logo {
+        img {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+    }
+    .text {
+        color: $color-primary;
+    }
+
+    &__main {
+        display: flex;
+        gap: 100px;
+        margin-bottom: 20px;
+    }
+    &__item {
+        span {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: $color-primary;
+            display: block;
+        }
+        ul {
+            li {
+                list-style: none;
+                &:not(:last-child) {
+                    margin-bottom: 10px;
+                }
+                a {
+                    text-decoration: none;
+                    font-size: 18px;
+                    color:$color-primary;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+    &__bottom {
+        border-top: 1px solid $color-primary;
+        padding: 30px 0px;
+    }
+
+    &__text {
+        ul {
+            display: flex;
+            li {
+                list-style: none;
+                margin-right: 20px;
+                a {
+                    text-decoration: none;
+                    color: $color-primary;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+    &__copyright {
+        font-size: 18px;
+        color: $color-primary;
+        font-weight: 400;
+        text-align: end;
+        @media only screen and (max-width: 900px) {
+            text-align: start;
+        }
+    }
+}
+////////// footer ends

@@ -1,0 +1,45 @@
+.feature {
+    background-image: url("/assets/img/features.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+    .tag {
+        text-align: center;
+    }
+    .heading2 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    &__item {
+        text-align: center;
+        margin-bottom: 30px;
+        &__icon {
+            justify-content: center;
+            display: flex;
+            margin-bottom: 15px;
+            gap: 6px;
+            i {
+                color: $color-primary;
+            }
+        }
+        .text {
+            color: $color-primary;
+            margin-bottom: 15px;
+        }
+
+        &__details {
+            h3 {
+                font-weight: 600;
+                font-size: 22px;
+                color: $color-primary;
+            }
+            span {
+                font-weight: 500;
+                font-size: 16px;
+                color: $color-primary;
+            }
+        }
+    }
+}
