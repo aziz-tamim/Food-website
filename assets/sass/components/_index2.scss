@@ -1,0 +1,608 @@
+////////// header section start
+.header2 {
+    &.header {
+        background-color: $color-grey-2;
+        .header__start {
+            &__menu {
+                li {
+                    a {
+                        color: $color-primary-2;
+                    }
+                }
+            }
+        }
+    }
+}
+////////// header section ends
+
+////////// hero section start
+.hero2 {
+  &.planted {
+    background-image: url("/assets/img/hero2.jpg");
+    background-color: $color-secondary-2;
+    @media only screen and (max-width: 1204px) {
+      background-image: none;
+    }
+
+    &__img {
+        display: none;
+        @media only screen and (max-width: 1200px) {
+            display: block;
+        }
+    }
+
+    .planted__item {
+      h1 {
+        color: $color-primary-2;
+      }
+      &__tag {
+        &.tag {
+          a {
+            color: $color-primary-2;
+          }
+        }
+      }
+
+      .btn__primary {
+        a {
+            background-color: $color-primary-2;
+            color: $color-white;
+            &:hover {
+                background-color: $color-yellow;
+                color: $color-black;
+            }
+        }
+      }
+
+      .text {
+        color: $color-primary-2;
+      }
+    }
+  }
+}
+////////// hero section ends
+
+////////// feature section start
+.feature2 {
+    &.feature {
+        background-image: none;
+        background-color: $color-grey-2;
+        .feature__item {
+            &__icon {
+                i {
+                    color: #FFC21F;
+                }
+            }
+            .text {
+                color: $color-primary-2;
+            }
+            &__details {
+                h3 {
+                    color: $color-primary-2;
+                }
+                span {
+                    color: $color-primary-2;
+                }
+            }
+        }
+    }
+}
+////////// feature section ends
+
+/////////// about section start
+.about2 {
+    &.about {
+        background-color: $color-primary-2;
+        .about__content {
+            color: $color-white;
+            h1 {
+                color: $color-white;
+                @media only screen and (max-width: 873px) {
+                    font-size: 40px;
+                }
+
+                @media only screen and (max-width: 605px) {
+                    font-size: 26px;
+                    margin-bottom: 10px;
+                }
+            }
+            .tag {
+                a {
+                    color: $color-white;
+                }
+            }
+        }
+
+        .about__text {
+            color: $color-white;
+        }
+    
+        .btn__primary {
+            a {
+                background-color: $color-yellow;
+                color: $color-black;
+                &:hover {
+                    background-color: $color-secondary;
+                    color: $color-black;
+                }
+    
+            }
+        }
+    }
+}
+/////////// about section ends
+
+////////// mission section start
+.mission2 {
+    &.mission {
+        background-color: $color-grey-2;
+        h1 {
+            color: $color-primary-2;
+        }
+        .text {
+            color: $color-primary-2;
+        }
+    }
+}
+////////// mission section ends
+
+////////// cta section start
+.cta2 {
+    &.cta {
+        background-image: url("/assets/img/cta2.jpg");
+        .cta__item {
+            .heading2 {
+                color: $color-primary-2;
+            }
+            h1 {
+                @media only screen and (max-width: 600px) {
+                    font-size: 35px;
+                }
+            }
+
+            .text {
+                color: $color-primary-2;
+            }
+
+            .btn__primary {
+                a {
+                    background-color: $color-primary-2;
+                    color: $color-white;
+                    &:hover {
+                        background-color: $color-yellow;
+                        color: $color-black;
+                    }
+                }
+            }
+        }
+    }
+}
+////////// cta section ends
+
+////////// service section start
+.service2 {
+    background-color: $color-grey-2;
+    &__text {
+        h1 {
+            color: $color-primary-2;
+        }
+        .text {
+            color: $color-primary-2;
+        }
+
+        .btn__primary {
+            a {
+                background-color: $color-primary-2;
+                color: $color-white;
+                &:hover {
+                    background-color: $color-yellow;
+                    color: $color-black;
+                }
+            }
+        }
+    }
+
+    &__item {
+        padding: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        gap: 20px;
+        background-color: $color-secondary-2;
+
+        &__number {
+            &__main {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                background-color: $color-white;
+                span {
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: $color-primary-2;
+                }
+            }
+        }
+
+        &__text {
+            h3 {
+                font-weight: 500;
+                font-size: 20px;
+                margin-bottom: 10px;
+                color: $color-primary-2;
+            }
+
+            .text {
+                color: $color-primary-2;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+////////// service section ends
+
+////////// chooseus section start
+.chooseus2 {
+    &.chooseus {
+        background-color: $color-primary-2;
+        h1 {
+            @media only screen and (max-width: 743px) {
+                font-size: 40px;
+            }
+            @media only screen and (max-width: 600px) {
+                font-size: 35px;
+            }
+        }
+        .t-center {
+            margin: 0 auto;
+            text-align: center;
+        }
+        .btn__primary {
+            a {
+                background-color: $color-yellow;
+                color: $color-black;
+                &:hover { 
+                    background-color: $color-secondary-2;
+                }
+            }
+        }
+
+        .chooseus__item {
+            display: flex;
+            margin-bottom: 20px;
+            &__icon {
+                i {
+                    color: $color-white;
+                    margin-right: 10px;
+                    font-size: 20px;
+                }
+            }
+            &__text {
+                h3 {
+                    margin: 0;
+                    color: $color-white;
+                    margin-bottom: 10px;
+                }
+                .text {
+                    margin-bottom: 0;
+                }
+            }
+            &__main {
+                padding: 20px 0;
+            }
+        }
+    }
+}
+////////// chooseus section ends
+
+////////// testimonial section start
+.testimonial2 {
+    background-color: $color-secondary-2;
+    .tag {
+        text-align: center;
+        color: $color-primary-2;
+    }
+    h1 {
+        text-align: center;
+        color: $color-primary-2;
+    }
+
+    &__item {
+        display: flex;
+        gap: 30px;
+        background-color: $color-grey-2;
+        padding: 10px;
+        margin-bottom: 20px;
+        &__img {
+            position: relative;
+            img {
+                height: 191px;
+                object-fit: cover;
+                max-height: 191px;
+            }
+        }
+
+        &__icon {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            left: 0;
+            right: 0;
+            top: 50%;
+            border-radius: 50%;
+            background-color: $color-white;
+            transform: translateY(-50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            a {
+                i {
+                    font-size: 16px;
+                   color: $color-black;
+                }
+            }
+        }
+        &__main {
+            h3 {
+                color: $color-primary-2;
+                font-size: 20px;
+                font-weight: 500;
+            }
+            .text {
+                color: $color-primary-2;
+                margin-bottom: 10px;
+            }
+        }
+        &__details {
+            h3 {
+                font-size: 18px;
+                font-weight: 500;
+                color: $color-primary-2;
+            }
+        }
+        &__star {
+            margin-bottom: 10px;
+            i {
+                color: #FFC21F;
+            }
+        }
+    }
+}
+////////// testimonial section ends
+
+////////// recipes section start
+.recipes {
+    background-color: $color-grey-2;
+    .tag {
+        a {
+            color: $color-primary-2;
+        }
+    }
+    h1 {
+        color: $color-primary-2;
+        @media only screen and (max-width: 976px) {
+            font-size: 45px;
+        }
+        @media only screen and (max-width: 976px) {
+            font-size: 40px;
+        }
+        @media only screen and (max-width: 588px) {
+            font-size: 35px;
+        }
+    }
+
+    &__item {
+        margin-bottom: 20px;
+        &__name {
+            h3 {
+                text-align: center;
+                font-size: 22px;
+                font-weight: 500;
+                padding: 5px 0px;
+                color: $color-primary-2;
+                background-color: $color-secondary-2;
+            }
+        }
+    }
+}
+////////// recipes section ends
+
+////////// culinary section start
+.culinary {
+    background-color: $color-primary-2;
+    .tag {
+        a {
+            color: $color-white;
+        }
+    }
+    h1 {
+        color: $color-white;
+    }
+    .btn__primary {
+        a {
+            background-color: $color-yellow;
+            color: $color-black;
+            &:hover {
+                background-color: $color-secondary-2;
+            }
+        }
+    }
+}
+////////// culinary section ends
+
+////////// working section start
+.working {
+    background-color: $color-grey-2;
+    .t-center {
+        text-align: center;
+        margin: 0 auto;
+    }
+    h1 {
+        color: $color-primary-2;
+        @media only screen and (max-width: 777px) {
+            font-size: 40px;
+        }
+    }
+    .text {
+        color: $color-primary-2;
+    }
+
+    &__item {
+        background-color: $color-secondary-2;
+        padding: 25px 15px;
+        margin-bottom: 20px;
+        @media only screen and (max-width: 600px) {
+            text-align: center;
+        }
+        &__main {
+            padding: 30px 0px;
+        }
+        &__icon {
+            margin-bottom: 10px;
+            i {
+                font-size: 35px;
+                color: $color-primary-2;
+            }
+        }
+        h3 {
+            color: $color-primary-2;
+            font-weight: 500;
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+        .text {
+            margin-bottom: 0;
+        }
+    }
+    .btn__primary {
+        text-align: center;
+        a {
+            background-color: $color-primary-2;
+            color: $color-white;
+            &:hover {
+                background-color: $color-secondary;
+                color: $color-black;
+            }
+        }
+    }
+}
+////////// working section ends
+
+////////// contact section start
+.contact {
+    background-color: $color-primary-2;
+    &__main {
+        .tag {
+            a {
+                color: $color-white;
+            }
+        }
+        h1 {
+            color: $color-white;
+            @media only screen and (max-width: 600px) {
+                font-size: 34px;
+            }
+        }
+        .contact__form {
+            padding-right: 30px;
+            @media only screen and (max-width: 600px) {
+                padding-right: 0px;
+            }
+            input {
+                background-color: transparent;
+                color: $color-white;
+                border: none;
+                border-bottom: 1px solid $color-white;
+                width: 100%;
+                padding: 8px 10px;
+                font-size: 16px;
+                margin-bottom: 30px;
+                &:focus {
+                    outline: none;
+                }
+            }
+            .contact__name {
+                display: flex;
+                gap: 30px;
+            }
+            .contact__email {
+                display: flex;
+                gap: 30px;
+            }
+            .contact__checkbox {
+                input {
+                    width: auto;
+                    margin-right: 5px;
+                }
+                label {
+                    color: $color-white;
+                }
+            }
+            .btn__primary {
+                a {
+                    background-color: $color-yellow;
+                    &:hover {
+                        background-color: $color-secondary-2;
+                        color: $color-black;
+                    }
+                }
+            }
+        }
+    }
+    &__map {
+        iframe {
+            width: 100%;
+            height: 610px;
+            max-height: 610px;
+        }
+    }
+}
+////////// contact section ends
+
+////////// footer section start
+.footer2 {
+    &.footer {
+        background-image: url("/assets/img/footer-background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        .text {
+            color: $color-white;
+        }
+        .footer__main {
+            .footer__item {
+                span {
+                    color: $color-white;
+                }
+                ul {
+                    li {
+                        a {
+                            color: $color-white;
+                        }
+                    }
+                }
+            } 
+        }
+
+        .footer__bottom {
+            border-top: 1px solid $color-white;
+            .footer__text {
+                ul {
+                    li {
+                        a {
+                            color: $color-white;
+                        }
+                    }
+                }
+            }
+            .footer__copyright {
+                p {
+                    color: $color-white;
+                }
+            }
+        }
+    }
+}
+////////// footer section ends

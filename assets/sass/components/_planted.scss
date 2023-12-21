@@ -8,6 +8,13 @@
         background-image: none;
     }
 
+    &__img {
+        display: none;
+        margin-bottom: 20px;
+        @media only screen and (max-width: 1200px) {
+            display: block;
+        }
+    }
     &__item {
         h1 {
             color: $color-white;
@@ -16,7 +23,7 @@
             margin: 0;
             line-height: 1.2;
             margin-bottom: 20px;
-            @media only screen and (max-width: 763px) {
+            @media only screen and (max-width: 1000px) {
                 font-size: 40px;
             }
             @media only screen and (max-width: 508px) {

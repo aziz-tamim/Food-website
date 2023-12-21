@@ -1,0 +1,236 @@
+////////// header section start
+.header3 {
+    &.header {
+        background-color: $color-primary-2;
+        .header__start {
+            ul {
+                li {
+                    a {
+                        color: $color-primary-3;
+                    }
+                }
+            }
+        }
+        .header__end {
+            ul {
+                li  {
+                    a {
+                        color: $color-primary-3;
+                    }
+                    .header__btn {
+                        border: 1px solid $color-primary-3;
+                        &:hover {
+                            background-color: $color-yellow;
+                            color: $color-primary-2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+////////// header section ends
+
+////////// hero section start
+.hero3 {
+    &.planted {
+        background-image: url("/assets/img/hero3.jpg");
+        background-size: cover;
+        background-position: center;
+        .planted__item {
+            .tag {
+                a {
+                    color: $color-primary-3;
+                }
+            }
+            h1 {
+                color: $color-primary-3;
+            }
+            .text {
+                color: $color-primary-3;
+            }
+            .btn__primary {
+                a {
+                    background-color: $color-primary-3;
+                    &:hover {
+                        background-color: $color-primary-2;
+                    }
+                }
+            }
+        }
+    }
+}
+////////// hero section ends
+
+////////// blog section start
+.blog3 {
+    background-color: $color-grey-2;
+    &__item {
+        position: relative;
+        &__icon {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            left: 0;
+            right: 0;
+            top: 50%;
+            border-radius: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            background-color: $color-secondary-3;
+            a {
+                i {
+                    color: $color-white;
+                }
+            }
+        }
+    }
+
+    &__content {
+        padding: 30px 20px;
+        &__img {
+            margin-bottom: 20px;
+            img {
+                width: 60px;
+            }
+        }
+        .text {
+            color: $color-secondary-3;
+        }
+        &__star {
+            margin-bottom: 20px;
+            i {
+                color: $color-primary-3;
+                margin-right: 5px;
+                font-size: 20px;
+            }
+        }
+        h3 {
+            font-size: 20px;
+            font-weight: 500;
+            color: $color-secondary-3;
+        }
+    }
+}
+////////// blog section ends
+
+////////// story section start
+.story3 {
+    background-color: $color-primary-3;
+    background-image: url("/assets/img/story3.png");
+    background-position: right;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    @media only screen and (max-width: 950px) {
+        background-image: none;
+    }
+    @media only screen and (max-width: 900px) {
+        padding: 80px 0px;
+    }
+    &__img {
+        @media only screen and (max-width: 1300px) {
+            display: none;
+        }
+        @media only screen and (max-width: 950px) {
+            display: block;
+        }
+    }
+
+    &__content {
+        h1 {
+            color: $color-secondary-3;
+        }
+        @media only screen and (max-width: 900px) {
+            padding: 0;
+            margin-bottom: 20px;
+        }
+    }
+    .text {
+        color: $color-secondary-3;
+    }
+    .btn__primary {
+        a {
+            background-color: $color-secondary-3;
+            color: $color-white;
+            &:hover {
+                background-color: $color-secondary;
+                color: $color-black;
+            }
+        }
+    }
+}
+////////// story section ends
+
+////////// explores section start
+.explores3 {
+    &.explores {
+        background-color: #F9F1EC;
+        .heading2 {
+            color: $color-secondary-3;
+        }
+        .text {
+            color: $color-secondary-3;
+        }
+        .explores__menu {
+            margin-bottom: 30px;
+            ul {
+                gap: 50px;
+                display: flex;
+                justify-content: center;
+                @media only screen and (max-width: 600px) {
+                    gap: 40px;
+                }
+                li {
+                    list-style: none;
+                    a {
+                        text-decoration: none;
+                        color: $color-secondary-3;
+                        font-size: 18px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+        .card {
+            .text {
+                color: $color-secondary-3;
+            }
+
+            &__price {
+                h3 {
+                    color: $color-secondary-3;
+                }
+                a {
+                    color: $color-secondary-3;
+                }
+            }
+
+            &__btn {
+                .btn1 {
+                    background-color: $color-secondary-3;
+                    &:hover {
+                        background-color: $color-secondary;
+                        color: $color-black;
+                    }
+                }
+                .btn2 {
+                    color: $color-secondary-3;
+                }
+            }
+        }
+        .btn__primary {
+            a {
+                background-color: $color-secondary-3;
+                color: $color-white;
+                &:hover {
+                    background-color: $color-secondary;
+                    color: $color-black;
+                }
+            }
+        }
+    }
+}
+////////// explores section ends
