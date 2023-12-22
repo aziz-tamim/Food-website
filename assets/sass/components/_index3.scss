@@ -234,3 +234,226 @@
     }
 }
 ////////// explores section ends
+
+////////// about section start
+.about3 {
+    background-color: $color-secondary-3;
+    background-image: url("/assets/img/about3.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: left;
+    @media only screen and (max-width: 900px) {
+        background-image: none;
+    }
+
+    &__img {
+        display: none;
+        @media only screen and (max-width: 889px) {
+            display: block;
+        }
+    }
+    &__content {
+        padding: 0px 20px;
+        h1 {
+            color: $color-primary-3;
+        }
+        .btn__primary {
+            a {
+                background-color: $color-primary-3;
+                &:hover {
+                    background-color: $color-secondary;
+                    color: $color-black;
+                }
+            }
+        }
+    }
+
+    &__item {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 20px;
+        &__logo {
+            img {
+                width: 30px;
+            }
+        }
+        &__title {
+            h3 {
+                font-weight: 500;
+                font-size: 22px;
+                color: $color-primary-3;
+                margin-bottom: 5px;
+            }
+            .text {
+                color: $color-primary-3;
+            }
+        }
+    }
+}
+////////// about section ends
+
+////////// overview section ends
+.overview3 {
+    background-color: #F9F1EC;
+    .tag {
+        a {
+            color: $color-secondary-3;
+        }
+    }
+    h1 {
+        color: $color-secondary-3;
+    }
+    .text {
+        color: $color-secondary-3;
+    }
+
+    &__price {
+        display: flex;
+        gap: 25px;
+        h3 {
+           font-size: 25px;
+           font-weight: 600;
+        }
+    }
+}
+////////// overview section ends
+
+////////// customer section start
+.customer3 {
+    background-color: #F9F1EC;
+    h1 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    &__content {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        &__img {
+            margin-bottom: 20px;
+            img {
+                width: 80px;
+            }
+        }
+        .text1 {
+            font-weight: 500;
+        }
+        .text {
+            color: $color-secondary-3;
+        }
+    }
+
+    &__img {
+        margin-bottom: 20px;
+    }
+    .img3 {
+        margin-top: -96px;
+        @media only screen and (max-width: 1134px) {
+            margin-top: 0;
+        }
+    }
+}
+////////// customer section ends
+
+////////// cta section start
+.cta3 {
+    background-image: url("/assets/img/cta3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 50px;
+    @media only screen and (max-width: 630px) {
+        padding: 80px 0px;
+    }
+
+    &__content {
+        margin-right: 20px;
+        h1 {
+            color: $color-white;
+            @media only screen and (max-width: 890px) {
+                font-size: 30px;
+            }
+        }
+        .text {
+            color: $color-primary-3;
+        }
+    }
+    &__subscribe {
+        padding: 50px 30px;
+        @media only screen and (max-width: 800px) {
+            padding: 50px 0;
+        }
+        input {
+            padding: 15px 20px;
+            width: 100%;
+            background-color: transparent;
+            border: 1px solid $color-primary-3;
+            color: $color-primary-3;
+            font-size: 16px;
+            margin-bottom: 20px; 
+            &::placeholder {
+                color: $color-primary-3;
+            }
+            &:focus {
+                outline: none;
+            }
+        }
+        .btn__primary {
+            a {
+                width: 100%;
+                text-align: center;
+                background-color: $color-primary-3;
+                padding: 15px 20px;
+                border: 1px solid transparent;
+                &:hover {
+                    background-color: transparent;
+                    color: $color-primary-3;
+                    border: 1px solid $color-primary-3;
+                }
+            }
+        }
+    }
+}
+////////// cta section ends
+
+////////// footer section start
+.footer3 {
+    &.footer {
+        background-color: #F9F1EC;
+        .text {
+            color: $color-secondary-3;
+        }
+        .footer__item {
+            span {
+                color: $color-secondary-3;
+            }
+            ul {
+                li {
+                    a {
+                        color: $color-secondary-3;
+                    }
+                }
+            }
+        }
+
+        .footer__bottom {
+            border-top: 1px solid $color-secondary-3;
+            .footer__text {
+                ul {
+                    li {
+                        a {
+                            color: $color-secondary-3;
+                        }
+                    }
+                }
+            }
+            .footer__copyright {
+                p {
+                    color: $color-secondary-3;
+                }
+            }
+        }
+    }
+}
+/////////// footer section ends
