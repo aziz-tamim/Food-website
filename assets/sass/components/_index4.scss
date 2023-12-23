@@ -1,0 +1,158 @@
+////////// header section start
+.header4 {
+    &.header {
+        background-color: $color-secondary;
+        .header__start {
+            &__menu {
+                li {
+                    a {
+                        color: $color-primary-4;
+                    }
+                }
+            }
+        }
+        .header__end {
+            ul {
+                li {
+                    a {
+                        color: $color-primary-4;
+                    }
+                    .header__btn {
+                        border: 1px solid $color-primary-4;
+                        &:hover {
+                            color: $color-white;
+                            border: 1px solid $color-black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+////////// header section ends
+
+////////// hero section start
+.hero4 {
+    &.planted {
+        background-image: url("/assets/img/background4.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        .planted__item {
+            .btn__primary {
+                a {
+                    &:hover {
+                        background-color: $color-primary-4;
+                    }
+                }
+            }
+        }
+        .t-center {
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+}
+////////// hero section ends
+
+////////// feature section start
+.planted__bottom4 {
+    &.planted__bottom {
+        background-color: $color-grey-2;
+        .planted__card {
+            &__icon {
+                background-color: $color-secondary;
+            }
+        }
+    }
+}
+////////// feature section ends
+
+////////// about4 section start
+.about4 {
+    background-color: $color-secondary;
+    &__content {
+        padding: 40px 30px;
+        h1 {
+            color: $color-primary-4;
+        }
+        .text {
+            color: $color-primary-4;
+        }
+        .btn__primary {
+            a {
+                background-color: $color-primary-4;
+                color: $color-white;
+                &:hover {
+                    background-color: $color-black;
+                }
+            }
+        }
+    }
+}
+////////// about4 section ends
+
+////////// delivery4 section start
+.delivery4 {
+    background-color: $color-primary-4;
+    &__content {
+        h1 {
+            color: $color-white;
+        }
+        .text2 {
+            font-weight: 500;
+        }
+    }
+}
+////////// delivery4 section ends
+
+////////// works section start
+.works {
+    background-color: $color-grey-2;
+    .t-center {
+        text-align: center;
+        margin: 0 auto;
+    }
+    h1 {
+        color: $color-primary-4;
+    }
+    .text {
+        color: $color-primary-4;
+    }
+
+    .btn__primary {
+        text-align: center;
+        a {
+            background-color: $color-primary-4;
+            color: $color-white;
+            &:hover {
+                background-color: $color-black;
+                color: $color-white;
+            }
+        }
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    &__item {
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 30px 0;
+        &__img {
+            img {
+                margin-bottom: 20px;
+            }
+        }
+        h3 {
+            font-size: 22px;
+            color: $color-primary-4;
+            font-weight: 500;
+        }
+        .text {
+            color: $color-primary-2;
+        }
+    }
+}
+////////// works section ends

@@ -1097,3 +1097,84 @@ img {
       color: #302823; }
     .footer3.footer .footer__bottom .footer__copyright p {
       color: #302823; }
+
+.header4.header {
+  background-color: #CFEFDD; }
+  .header4.header .header__start__menu li a {
+    color: #004E35; }
+  .header4.header .header__end ul li a {
+    color: #004E35; }
+  .header4.header .header__end ul li .header__btn {
+    border: 1px solid #004E35; }
+    .header4.header .header__end ul li .header__btn:hover {
+      color: #F4F3E8;
+      border: 1px solid #1f1f1f; }
+
+.hero4.planted {
+  background-image: url("/assets/img/background4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .hero4.planted .planted__item .btn__primary a:hover {
+    background-color: #004E35; }
+  .hero4.planted .t-center {
+    text-align: center;
+    margin: 0 auto; }
+
+.planted__bottom4.planted__bottom {
+  background-color: #fbf4eb; }
+  .planted__bottom4.planted__bottom .planted__card__icon {
+    background-color: #CFEFDD; }
+
+.about4 {
+  background-color: #CFEFDD; }
+  .about4__content {
+    padding: 40px 30px; }
+    .about4__content h1 {
+      color: #004E35; }
+    .about4__content .text {
+      color: #004E35; }
+    .about4__content .btn__primary a {
+      background-color: #004E35;
+      color: #F4F3E8; }
+      .about4__content .btn__primary a:hover {
+        background-color: #1f1f1f; }
+
+.delivery4 {
+  background-color: #004E35; }
+  .delivery4__content h1 {
+    color: #F4F3E8; }
+  .delivery4__content .text2 {
+    font-weight: 500; }
+
+.works {
+  background-color: #fbf4eb; }
+  .works .t-center {
+    text-align: center;
+    margin: 0 auto; }
+  .works h1 {
+    color: #004E35; }
+  .works .text {
+    color: #004E35; }
+  .works .btn__primary {
+    text-align: center; }
+    .works .btn__primary a {
+      background-color: #004E35;
+      color: #F4F3E8; }
+      .works .btn__primary a:hover {
+        background-color: #1f1f1f;
+        color: #F4F3E8; }
+  .works .text {
+    text-align: center; }
+  .works__item {
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 30px 0; }
+    .works__item__img img {
+      margin-bottom: 20px; }
+    .works__item h3 {
+      font-size: 22px;
+      color: #004E35;
+      font-weight: 500; }
+    .works__item .text {
+      color: #30312C; }
