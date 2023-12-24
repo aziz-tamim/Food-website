@@ -56,6 +56,10 @@ img {
     text-decoration: none;
     color: #102B1F; }
 
+.t-center {
+  text-align: center;
+  margin: 0 auto; }
+
 .text {
   font-weight: 400;
   font-size: 16px;
@@ -229,9 +233,6 @@ img {
   background-color: #CFEFDD; }
   .mission .tag {
     text-align: center; }
-  .mission .t-center {
-    text-align: center;
-    margin: 0 auto; }
   @media only screen and (max-width: 1198px) {
     .mission .heading2 {
       font-size: 40px; } }
@@ -262,10 +263,6 @@ img {
     color: #102B1F; }
 
 .explores .tag {
-  text-align: center; }
-
-.explores .t-center {
-  margin: 0 auto;
   text-align: center; }
 
 @media only screen and (max-width: 1143px) {
@@ -597,9 +594,6 @@ img {
   @media only screen and (max-width: 600px) {
     .chooseus2.chooseus h1 {
       font-size: 35px; } }
-  .chooseus2.chooseus .t-center {
-    margin: 0 auto;
-    text-align: center; }
   .chooseus2.chooseus .btn__primary a {
     background-color: #E4E458;
     color: #1f1f1f; }
@@ -713,9 +707,6 @@ img {
 
 .working {
   background-color: #fbf4eb; }
-  .working .t-center {
-    text-align: center;
-    margin: 0 auto; }
   .working h1 {
     color: #30312C; }
     @media only screen and (max-width: 777px) {
@@ -1117,9 +1108,6 @@ img {
   background-repeat: no-repeat; }
   .hero4.planted .planted__item .btn__primary a:hover {
     background-color: #004E35; }
-  .hero4.planted .t-center {
-    text-align: center;
-    margin: 0 auto; }
 
 .planted__bottom4.planted__bottom {
   background-color: #fbf4eb; }
@@ -1149,9 +1137,6 @@ img {
 
 .works {
   background-color: #fbf4eb; }
-  .works .t-center {
-    text-align: center;
-    margin: 0 auto; }
   .works h1 {
     color: #004E35; }
   .works .text {
@@ -1178,3 +1163,105 @@ img {
       font-weight: 500; }
     .works__item .text {
       color: #30312C; }
+
+.blog4.blog {
+  background-color: #fbf4eb; }
+
+.service4 {
+  background-color: #004E35; }
+  .service4__content {
+    padding-left: 40px; }
+    @media only screen and (max-width: 600px) {
+      .service4__content {
+        padding-left: 0; } }
+    .service4__content h1 {
+      color: #F4F3E8; }
+  .service4__img {
+    margin-bottom: 20px; }
+  .service4__item {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 25px; }
+    .service4__item__number__main {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: #F4F3E8;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .service4__item__number__main span {
+        font-size: 20px;
+        font-weight: 500;
+        color: #1f1f1f; }
+    .service4__item h3 {
+      font-weight: 500;
+      font-size: 22px;
+      color: #1f1f1f;
+      margin-bottom: 5px;
+      color: #F4F3E8; }
+    .service4__item .text {
+      margin-bottom: 0; }
+
+.food {
+  background-color: #CFEFDD; }
+  .food__main__start {
+    display: flex;
+    align-items: center;
+    justify-content: end; }
+    @media only screen and (max-width: 600px) {
+      .food__main__start {
+        justify-content: start; } }
+  .food__main {
+    padding-top: 40px; }
+  .food__main__end {
+    justify-content: start;
+    display: flex;
+    align-items: center; }
+  .food h1 {
+    color: #004E35; }
+  .food .text {
+    color: #1f1f1f; }
+  .food__img img {
+    margin-bottom: 20px; }
+  .food__content__item {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    margin-bottom: 20px; }
+    @media only screen and (max-width: 600px) {
+      .food__content__item {
+        justify-content: start; } }
+    .food__content__item .text {
+      margin-bottom: 0; }
+  .food__content .start {
+    justify-content: start; }
+  .food__content__icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #004E35;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px; }
+    .food__content__icon i {
+      color: #F4F3E8;
+      font-size: 14px; }
+
+.logo {
+  background-color: #fbf4eb; }
+  .logo h1 {
+    color: #004E35; }
+  .logo .text {
+    color: #30312C; }
+  .logo__img {
+    margin-bottom: 20px;
+    width: 150px; }
+    @media only screen and (max-width: 600px) {
+      .logo__img {
+        padding: 0px 100px;
+        display: flex;
+        justify-content: center; }
+        .logo__img img {
+          width: 150px; } }

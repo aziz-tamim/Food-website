@@ -255,10 +255,6 @@
                 font-size: 35px;
             }
         }
-        .t-center {
-            margin: 0 auto;
-            text-align: center;
-        }
         .btn__primary {
             a {
                 background-color: $color-yellow;
@@ -436,10 +432,6 @@
 ////////// working section start
 .working {
     background-color: $color-grey-2;
-    .t-center {
-        text-align: center;
-        margin: 0 auto;
-    }
     h1 {
         color: $color-primary-2;
         @media only screen and (max-width: 777px) {
