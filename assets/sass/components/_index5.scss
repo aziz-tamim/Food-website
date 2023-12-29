@@ -1,0 +1,122 @@
+////////// header section start
+.header5 {
+    &.header {
+        background-color: #2E382C;
+        .header__start {
+            &__logo {
+                img {
+                    width: 100%;
+                }
+            }
+            &__menu {
+                li {
+                    a {
+                        color: $color-white;
+                    }
+                }
+            }
+        }
+        .header__end {
+            ul {
+                li {
+                    a {
+                        color: $color-white;
+                    }
+                    .header__btn {
+                        border: 1px solid $color-white;
+                        &:hover {
+                            background-color: $color-secondary;
+                            color: $color-black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+////////// header section ends
+
+////////// hero section start
+.hero5 {
+    &.planted {
+        background-color: #FEFAF0;
+        background-image: url("/assets/img/hero5.jpg");
+        @media only screen and (max-width: 900px) {
+            background-image: none;
+        }
+        .planted__item {
+            .tag {
+                a {
+                    color: $color-black;
+                }
+            }
+            h1 {
+                color: $color-primary-4;
+            }
+            .text {
+                color: $color-black;
+            }
+            .btn__primary {
+                a {
+                    background-color: #FF6737;
+                    color: $color-white;
+                    &:hover {
+                        background-color: $color-primary-4;
+                    }
+                }
+            }
+        }
+        .planted__img {
+            img {
+                display: none;
+                @media only screen and (max-width: 901px) {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+////////// hero section ends
+
+////////// customer section start
+.customer5 {
+    background-image: url("/assets/img/customer4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    &__img {
+        margin-right: 20px;
+    }
+    &__content {
+        margin-left: 20px;
+        padding: 30px 0px;
+        &__img {
+            margin-bottom: 20px;
+            img {
+                width: 50px;
+            }
+        }
+        .text {
+            font-weight: 400;
+            font-size: 16px;
+        }
+        p {
+            color: $color-white;
+            margin-bottom: 20px;
+            font-weight: 500;
+            font-size: 18px;
+        }
+    }
+    &__main {
+        padding: 0px 70px;
+    }
+}
+////////// customer section ends
+
+////////// about section start
+.about5 {
+    &.about {
+        background-color: #FEFAF0;
+    }
+}
+///////// about section ends

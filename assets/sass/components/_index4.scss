@@ -294,3 +294,187 @@
     }
 }
 ////////// logo section ends
+
+////////// testimonial section start
+.testimonial4 {
+    background-color: $color-grey-2;
+    &__card {
+        background-color: $color-primary-4;
+        padding: 20px;
+        margin-bottom: 20px;
+        h3 {
+            font-size: 22px;
+            font-weight: 500;
+            color: $color-white;
+            margin-bottom: 10px;
+        }
+    }
+    &__details {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        img {
+            width: 60px;
+            height: 60px;
+        }
+    }
+    &__title {
+        h3 {
+            font-size: 18px;
+            margin-bottom: 0px;
+        }
+    }
+}
+////////// testimonial section ends
+
+////////// blog section start
+.blog4 {
+    &.blog {
+        background-color: #C0E8C0;
+        .heading2 {
+            color: $color-primary-4;
+        }
+        .text {
+            color: $color-primary-2;
+        }
+        .pt-40 {
+            padding-top: 40px;
+        }
+        .blog__button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .btn__primary{
+            a {
+                background-color: $color-primary-4;
+                color: $color-white;
+                &:hover {
+                    background-color: $color-black;
+                }
+            }
+        }
+        .blog__item {
+            padding: 20px;
+            background-color: $color-grey-2;
+
+            &__time {
+                display: flex;
+                justify-content: space-between;
+                .date {
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    color: $color-black;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+        }
+        .blog__content {
+            a {
+                background-color: $color-primary-4;
+                text-decoration: none;
+                color: $color-white;
+                padding: 3px 12px;
+                font-size: 16px;
+                margin-bottom: 10px;
+                display: inline-block;
+                transition: 0.3s;
+                &:hover {
+                    background-color: $color-secondary;
+                    color: $color-black;
+                }
+            }
+            h3 {
+                font-size: 22px;
+                font-weight: 500;
+            }
+        }
+    }
+}
+////////// blog section ends
+
+////////// cta section start
+.cta4 {
+    &.cta {
+        background-image: url("/assets/img/cta4.jpg");
+    }
+}
+
+////////// cta section ends
+
+////////// gallery section start
+.gallery4 {
+    background-color: $color-grey-2;
+    .heading2 {
+        color: $color-primary-4;
+    }
+    .text {
+        color: $color-primary-2;
+    }
+    .pt-40 {
+        padding-top: 40px;
+    }
+    &__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .btn__primary {
+            a {
+                background-color: $color-primary-4;
+                color: $color-white;
+                &:hover {
+                    background-color: $color-secondary;
+                    color: $color-black;
+                }
+            }
+        }
+    }
+    &__img {
+        margin-bottom: 20px;
+    }   
+}
+////////// gallery section ends
+
+////////// footer section start
+.footer4 {
+    &.footer {
+        background-color: $color-primary-4;
+        .text {
+            color: $color-white;
+        }
+        
+        .footer__item {
+            span {
+                color: $color-white;
+            }
+            ul {
+                li {
+                    a {
+                        color: $color-white;
+                    }
+                }
+            }
+        }
+
+        .footer__bottom {
+            border-top: 1px solid $color-white;
+            .footer__text {
+                ul {
+                    li {
+                        a {
+                            color: $color-white;
+                        }
+                    }
+                }
+            }
+            .footer__copyright {
+                p {
+                    color: $color-white;
+                }
+            }
+        }
+    }
+}
+////////// footer section ends
