@@ -1483,16 +1483,16 @@ img {
       margin: 0;
       margin-bottom: 10px; }
 
-.chooseus.chooseus {
+.chooseus5.chooseus {
   background-color: #2E382C; }
   @media only screen and (max-width: 600px) {
-    .chooseus.chooseus .heading2 {
+    .chooseus5.chooseus .heading2 {
       font-size: 40px; } }
-  .chooseus.chooseus .chooseus__item {
+  .chooseus5.chooseus .chooseus__item {
     position: relative; }
-    .chooseus.chooseus .chooseus__item__img {
+    .chooseus5.chooseus .chooseus__item__img {
       margin-bottom: 20px; }
-    .chooseus.chooseus .chooseus__item__icon {
+    .chooseus5.chooseus .chooseus__item__icon {
       position: absolute;
       width: 50px;
       height: 50px;
@@ -1506,22 +1506,22 @@ img {
       align-items: center;
       margin: 0 auto;
       background-color: #fff; }
-      .chooseus.chooseus .chooseus__item__icon a i {
+      .chooseus5.chooseus .chooseus__item__icon a i {
         color: #1f1f1f;
         font-size: 20px; }
-  .chooseus.chooseus .chooseus__content {
+  .chooseus5.chooseus .chooseus__content {
     margin-left: 20px; }
-    .chooseus.chooseus .chooseus__content__item {
+    .chooseus5.chooseus .chooseus__content__item {
       margin-bottom: 20px; }
-      .chooseus.chooseus .chooseus__content__item h3 {
+      .chooseus5.chooseus .chooseus__content__item h3 {
         font-size: 20px;
         font-weight: 500;
         margin-bottom: 10px;
         color: #F4F3E8; }
-    .chooseus.chooseus .chooseus__content .btn__primary a {
+    .chooseus5.chooseus .chooseus__content .btn__primary a {
       background-color: #FF6737;
       color: #F4F3E8; }
-      .chooseus.chooseus .chooseus__content .btn__primary a:hover {
+      .chooseus5.chooseus .chooseus__content .btn__primary a:hover {
         background-color: #CFEFDD;
         color: #1f1f1f; }
 
