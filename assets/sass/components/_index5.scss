@@ -58,7 +58,7 @@
             }
             .btn__primary {
                 a {
-                    background-color: #FF6737;
+                    background-color: $color-primary-5;
                     color: $color-white;
                     &:hover {
                         background-color: $color-primary-4;
@@ -117,6 +117,254 @@
 .about5 {
     &.about {
         background-color: #FEFAF0;
+        .about__content {
+            padding: 50px 0px;
+            .tag {
+                a {
+                    color: $color-black;
+                }
+            }
+            .text {
+                color: $color-black;
+            }
+            .btn__primary {
+                a {
+                    background-color: $color-primary-5;
+                    color: $color-white;
+                    &:hover {
+                        background-color: $color-black;
+                    }
+                }
+            }
+        }
     }
 }
 ///////// about section ends
+
+////////// service section start
+.service5 {
+    &.service {
+        background-color: #FEFAF0;
+        .tag {
+            a {
+                color: $color-black;
+            }
+        }
+        .heading2 {
+            @media only screen and (max-width: 600px) {
+                font-size: 40px;
+            }
+        }
+        .text {
+            color: $color-black;
+        }
+        .service__main {
+            padding: 40px 0px;
+        }
+        .btn__primary {
+            a {
+                background-color: $color-primary-5;
+                color: $color-white;
+                &:hover {
+                    background-color: $color-black;
+                }
+            }
+        }
+        .service__item {
+            padding: 20px;
+            border: 1px solid $color-black;
+            background-color: #fff;
+            margin-bottom: 20px;
+            &__logo {
+                margin-bottom: 20px;
+                img {
+                    width: 50px;
+                }
+            }
+            h3 {
+                font-size: 20px;
+                font-weight: 500;
+                margin: 0;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+////////// service section ends
+
+////////// chooseus section start
+.chooseus {
+    &.chooseus {
+        background-color: #2E382C;
+        .heading2 {
+            @media only screen and (max-width: 600px) {
+                font-size: 40px;
+            }
+        }
+        .chooseus__item {
+            position: relative;
+            &__img {
+                margin-bottom: 20px;
+            }
+            &__icon {
+                position: absolute;
+                width: 50px;
+                height: 50px;
+                left: 0;
+                right: 0;
+                top: 50%;
+                border-radius: 50%;
+                transform: translateY(-50%);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                background-color: #fff;
+                a {
+                    i {
+                        color: $color-black;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        .chooseus__content {
+            margin-left: 20px;
+            &__item {
+                margin-bottom: 20px;
+                h3 {
+                    font-size: 20px;
+                    font-weight: 500;
+                    margin-bottom: 10px;
+                    color: $color-white;
+                }
+            }
+
+            .btn__primary {
+                a {
+                    background-color: $color-primary-5;
+                    color: $color-white;
+                    &:hover {
+                        background-color: $color-secondary;
+                        color: $color-black;
+                    }
+                }
+            }
+        }
+    }
+}
+////////// chooseus section ends
+
+////////// testimonial section start
+.testimonial5 {
+    &.testimonial {
+        .testimonial__item {
+            padding: 20px;
+            border: 1px solid $color-black;
+            background-color: #fff;
+            margin-bottom: 20px;
+            h3 {
+                font-size: 22px;
+                font-weight: 500;
+                margin-bottom: 15px;
+            }
+            &__icon {
+                display: flex;
+                gap: 7px;
+                margin-bottom: 10px;
+                i {
+                    color: #FFB800;
+                }
+            }
+            .text {
+                color: $color-black;
+            }
+        }
+        .testimonial__details {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            img {
+                width: 40px;
+            }
+            h3 {
+                font-size: 18px;
+                font-weight: 500;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+////////// testimonial section ends
+
+////////// culinary section start
+.culinary5 {
+    &.culinary {
+        background-color: #2E382C;
+        .heading2 {
+            @media only screen and (max-width: 600px) {
+                font-size: 40px;
+            }
+        }
+        .culinary__img {
+            margin-bottom: 20px;
+        }
+    }
+}
+////////// culinary section ends
+
+////////// team section start
+.team5 {
+    &.team {
+        background-color: #FEFAF0;
+        .heading2 {
+            @media only screen and (max-width: 600px) {
+                font-size: 30px;
+            }
+        }
+        .team__item {
+            margin-bottom: 20px;
+            &__content {
+                padding: 20px;
+                border: 1.5px solid $color-grey;
+                h3 {
+                    margin-bottom: 10px;
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+                .text {
+                    color: $color-black;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+////////// team section ends
+
+////////// cta section start
+.cta5 {
+    &.cta {
+        background-image: url("/assets/img/cta5.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        .heading2 {
+            color: $color-white;
+            @media only screen and (max-width: 600px) {
+                font-size: 40px;
+            }
+        }
+        .btn__primary {
+            a {
+                background-color: $color-primary-5;
+                color: $color-white;
+                &:hover {
+                    background-color: $color-secondary;
+                    color: $color-black;
+                }
+            }
+        }
+    }
+}
+////////// cta section ends
