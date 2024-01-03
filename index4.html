@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
     <!-- ========== grid css ========== -->
     <link rel="stylesheet" href="assets/css/grid.css" />
+    <!-- ========== magnific popup css ========== -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- ========== swiper css ========== -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <!-- ========== style css ========== -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- ========== favicon icon ========== -->
@@ -18,10 +22,13 @@
     <section class="header header4">
         <div class="container">
             <div class="header__wrapper">
-                <div class="header__start">
-                    <div class="header__start__logo">
-                        <img src="assets/img/logo4.png" alt="logo 4" />
-                    </div>
+                <span onclick="myFunction()" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </span>
+                <div class="header__start__logo">
+                    <img src="assets/img/logo4.png" alt="logo 4" />
+                </div>
+                <div id="myDIV" class="header__start">
                     <ul class="header__start__menu">
                         <li><a href="#">Service</a></li>
                         <li><a href="#">Our Process</a></li>
@@ -748,5 +755,23 @@
         </div>
     </section>
     <!-- ========== footer section start ========== -->
+
+    <!-- ========== jquery js ========== -->
+    <script src="assets/js/code.jquery.com_jquery-1.12.4.min.js"></script>
+    <!-- ========== header js start ========== -->
+    <script>
+        function myFunction() {
+          var element = document.getElementById("myDIV");
+          console.log(element);
+          element.classList.toggle("mystyle");
+        }
+    </script>
+    <!-- ========== header js ends ========== -->
+    <!-- ========== magnific popup js ========== -->
+    <script src="assets/js/jquery.magnific-popup.js"></script>
+    <!-- ========== swiper js ========== -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- ========== active js ========== -->
+    <script src="assets/js/active.js"></script>
 </body>
 </html>

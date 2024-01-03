@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
     <!-- ========== grid css ========== -->
     <link rel="stylesheet" href="assets/css/grid.css" />
+    <!-- ========== swiper-bundle css ========== -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <!-- ========== style css ========== -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- ========== favicon icon =========== -->
@@ -18,10 +20,13 @@
     <section class="header header3">
         <div class="container">
             <div class="header__wrapper">
-                <div class="header__start">
-                    <div class="header__start__logo">
-                        <img src="assets/img/header3.png" alt="logo 3" />
-                    </div>
+                <span onclick="myFunction()" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </span>
+                <div class="header__start__logo">
+                    <img src="assets/img/header3.png" alt="logo 3" />
+                </div>
+                <div id="myDIV" class="header__start">
                     <ul class="header__start__menu">
                         <li><a href="#">Services</a></li>
                         <li><a href="#">About Us</a></li>
@@ -73,9 +78,9 @@
                         <div class="blog3__item__img">
                             <img src="assets/img/blogsection3.jpg" alt="blog 3" />
                         </div>
-                        <div class="blog3__item__icon">
-                            <a href="#"><i class="fa-solid fa-play"></i></a>
-                        </div>
+                        <a href="https://www.youtube.com/watch?v=4OCf3781zeE" class="blog3__item__icon video-popup">
+                            <i class="fa-solid fa-play"></i>
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
@@ -499,5 +504,23 @@
         </div>
     </section>
     <!-- ========== footer section ends ========== -->
+
+    <!-- ========== jquery js ========== -->
+    <script src="assets/js/code.jquery.com_jquery-1.12.4.min.js"></script>
+    <!-- ========== header js start ========== -->
+    <script>
+        function myFunction() {
+          var element = document.getElementById("myDIV");
+          console.log(element);
+          element.classList.toggle("mystyle");
+        }
+    </script>
+    <!-- ========== header js ends ========== -->
+    <!-- ========== magnicic popup js ========== -->
+    <script src="assets/js/jquery.magnific-popup.js"></script>
+    <!-- ========== swiper bundle js ========== -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- ========== active js ========== -->
+    <script src="assets/js/active.js"></script>
 </body>
 </html>

@@ -2,10 +2,12 @@
 .header5 {
     &.header {
         background-color: #2E382C;
+        .checkbtn {
+            color: $color-white;
+        }
         .header__start {
             &__logo {
                 img {
-                    width: 100%;
                 }
             }
             &__menu {
@@ -86,9 +88,14 @@
     background-position: center;
     &__img {
         margin-right: 20px;
-    }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 300px;
+        }
+    } 
     &__content {
-        margin-left: 20px;
         padding: 30px 0px;
         &__img {
             margin-bottom: 20px;
@@ -117,6 +124,7 @@
 .about5 {
     &.about {
         background-color: #FEFAF0;
+        border-bottom: 1px solid $color-black;
         .about__content {
             padding: 50px 0px;
             .tag {
@@ -205,6 +213,9 @@
             position: relative;
             &__img {
                 margin-bottom: 20px;
+                img {
+                    width: 100%;
+                }
             }
             &__icon {
                 position: absolute;
@@ -220,11 +231,10 @@
                 align-items: center;
                 margin: 0 auto;
                 background-color: #fff;
-                a {
-                    i {
-                        color: $color-black;
-                        font-size: 20px;
-                    }
+                text-decoration: none;
+                i {
+                    color: $color-black;
+                    font-size: 20px;
                 }
             }
         }
@@ -335,6 +345,17 @@
                 .text {
                     color: $color-black;
                     margin-bottom: 0;
+                }
+            }
+        }
+
+        .btn__primary {
+            a {
+                background-color: $color-primary-5;
+                color: $color-white;
+                &:hover {
+                    background-color: $color-secondary;
+                    color: $color-black;
                 }
             }
         }

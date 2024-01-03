@@ -159,11 +159,9 @@
                     font-size: 35px;
                 }
             }
-
             .text {
                 color: $color-primary-2;
             }
-
             .btn__primary {
                 a {
                     background-color: $color-primary-2;
@@ -268,6 +266,8 @@
         .chooseus__item {
             display: flex;
             margin-bottom: 20px;
+            position: relative;
+            align-items: start;
             &__icon {
                 i {
                     color: $color-white;
@@ -334,11 +334,10 @@
             justify-content: center;
             align-items: center;
             margin: 0 auto;
-            a {
-                i {
-                    font-size: 16px;
-                   color: $color-black;
-                }
+            text-decoration: none;
+            i {
+                font-size: 16px;
+                color: $color-black;
             }
         }
         &__main {

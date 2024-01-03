@@ -1,3 +1,4 @@
+////////// header start
 .header {
     padding: 20px 0;
     &__wrapper {
@@ -5,6 +6,17 @@
         gap: 10px;
         align-items: center;
         justify-content: space-between;
+        .checkbtn {
+            font-size: 30px;
+            color: $color-black;
+            float: right;
+            display: none;
+        }
+        @media only screen and (max-width: 625px) {
+            .checkbtn {
+                display: block;
+            }
+        }
     }
     &__start {
         display: flex;
@@ -30,8 +42,23 @@
                 }
             }
         }
+        @media only screen and (max-width: 625px) {
+            display: none;
+            &.mystyle {
+                display: flex;
+            }
+            &__logo {
+                img {
+                    margin-bottom: 20px;
+                }
+            }
+            &__menu {
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+            }
+        }
     }
-
     &__end {
         ul {
             gap: 30px;
@@ -44,13 +71,11 @@
                     font-weight: 500;
                     font-size: 16px;
                 }
-
                 .header__btn {
                     border: 1px solid $color-primary;
                     padding: 10px 20px;
                     color: $color-primary;
                     transition: all .3s;
-
                     &:hover {
                         background-color: $color-black;
                         color: $color-white;
@@ -58,32 +83,34 @@
                 }
             }
         }
-
-        @media only screen and (max-width: 600px) {
+        @media only screen and (max-width: 625px) {
             display: none;
+
         }
     }
-
     @media only screen and (max-width: 839px) {
         .header {
             &__wrapper {
-                flex-direction: column;
-                display: flex;
+                display: block;
             }
-    
             &__start {
                 margin-bottom: 20px;
             }
         }
     }
-
     @media only screen and (max-width: 552px) {
         .header {
             &__start {
-               flex-direction: column;
                gap: 10px;
             }
         }
     }
-}
 
+    @media only screen and (max-width: 838px) {
+        display: flex;
+        &__end {
+            display: none;
+        }
+    }
+}
+////////// header ends

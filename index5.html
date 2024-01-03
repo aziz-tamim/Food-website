@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
     <!-- ========== grid css ========== -->
     <link rel="stylesheet" href="assets/css/grid.css">
+    <!-- ========== swiper css ========== -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!-- ========== magnific popop css ========== -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <!-- ========== style css ========== -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- ========== favicon icon ========== -->
@@ -18,10 +22,13 @@
     <section class="header header5">
         <div class="container">
             <div class="header__wrapper">
-                <div class="header__start">
-                    <div class="header__start__logo">
-                        <img src="assets/img/header5.png" alt="header 5" />
-                    </div>
+                <span onclick="myFunction()" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </span>
+                <div class="header__start__logo">
+                    <img src="assets/img/header5.png" alt="header 5" />
+                </div>
+                <div id="myDIV" class="header__start">
                     <ul class="header__start__menu">
                         <li><a href="#">Service</a></li>
                         <li><a href="#">About Us</a></li>
@@ -202,9 +209,9 @@
                     <div class="chooseus__item">
                         <div class="chooseus__item__img">
                             <img src="assets/img/chooseus5.jpg" alt="chooseus 5" />
-                        </div>
-                        <div class="chooseus__item__icon">
-                            <a href="#"><i class="fa-solid fa-play"></i></a>
+                            <a href="https://www.youtube.com/watch?v=P0C5HLzJ_xQ" class="chooseus__item__icon video-popup">
+                                <i class="fa-solid fa-play"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -463,6 +470,9 @@
                 </div>
                 <!-- team item ends -->
             </div>
+            <div class="btn__primary t-center">
+                <a href="#">Sea all member</a>
+            </div>
         </div>
     </section>
     <!-- ========== team section ends ========== -->
@@ -556,5 +566,23 @@
         </div>
     </footer>
     <!-- ========== footer section ends ========== -->
+
+    <!-- ========== jquery js ========== -->
+    <script src="assets/js/code.jquery.com_jquery-1.12.4.min.js"></script>
+    <!-- ========== header js start ========== -->
+    <script>
+        function myFunction() {
+          var element = document.getElementById("myDIV");
+          console.log(element);
+          element.classList.toggle("mystyle");
+        }
+    </script>
+    <!-- ========== header js ends ========== -->
+    <!-- ========== swiper js ========== -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- ========== magnific popup js ========== -->
+    <script src="assets/js/jquery.magnific-popup.js"></script>
+    <!-- ========== active js ========== -->
+    <script src="assets/js/active.js"></script>
 </body>
 </html>

@@ -1,14 +1,85 @@
 .chooseus {
     background-color: $color-primary;
-
     .tag {
         a {
             color: $color-white;
         }
     }
-
     .heading2 {
         color: $color-white;
+    }
+    &__img {
+        position: relative;
+        .img1 {
+            max-width: 250px;
+            z-index: 2;
+            position: relative;
+        }
+        .img2 {
+            width: 300px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1;
+            left: 25px;
+            @media only screen and (max-width: 625px) {
+                display: none;
+            }
+        }
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        position: absolute;
+        z-index: 10;
+        @media only screen and (max-width: 625px) {
+            display: none; 
+        }
+
+        &.item1 {
+            top: 78px;
+            right: 178px;
+            // @media only screen and (max-width: 625px) {
+            //     right: 0px;
+            //     top: 70px;  
+            // }
+        }
+        &.item2 {
+            top: 152px;
+            right: 60px;
+            // @media only screen and (max-width: 625px) {
+            //     left: 294px;
+            //     top: 152px;
+            // }
+        }
+
+        &.item3 {
+            top: 232px;
+            right: 29px;
+            // @media only screen and (max-width: 625px) {
+            //     left: 289px;
+            // }
+        }
+
+        &.item4 {
+            right: 245px;
+            top: 312px;
+            // @media only screen and (max-width: 625px) {
+            //     right: 59px;
+            // }
+        }
+
+        img {
+            width: 50px;
+        }
+        h3 {
+            color: $color-white;
+            font-size: 18px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
     }
 }
 

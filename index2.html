@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
     <!-- ========== grid css ========== -->
     <link rel="stylesheet" href="assets/css/grid.css" />
+    <!-- ========== magnific popup css ========== -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- ========== swiper bundle css ========== -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <!-- ========== style css ========== -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- ========== favicon icon ========== -->
@@ -18,10 +22,13 @@
     <section class="header header2">
         <div class="container">
             <div class="header__wrapper">
-                <div class="header__start">
-                    <div class="header__start__logo">
-                        <img src="assets/img/logo2.png" alt="logo 2" />
-                    </div>
+                <span onclick="myFunction()" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </span>
+                <div class="header__start__logo">
+                    <img src="assets/img/logo2.png" alt="logo 2" />
+                </div>
+                <div id="myDIV" class="header__start">
                     <ul class="header__start__menu">
                         <li><a href="#">Services</a></li>
                         <li><a href="#">Our Process</a></li>
@@ -190,10 +197,10 @@
     <!-- ========== mission section ends ========== -->
 
     <!-- ==========  section start ========== -->
-    <section class=" 2 section-padding2">
+    <section class="cta2 cta section-padding2">
         <div class="container">
             <div class="row">
-                <div class="col-lg-7 col-md-10 col-sm-12 __item">
+                <div class="col-lg-7 col-md-10 col-sm-12 cta__item">
                     <h1 class="heading2">Ready to experience the joys of organic home cooking?</h1>
                     <p class="text">
                         We begin by understanding your preferences and dietary requirements through a personalized consultation
@@ -363,9 +370,9 @@
                     <div class="testimonial2__item">
                         <div class="testimonial2__item__img">
                             <img src="assets/img/testimonial2.jpg" alt="testimonial 2" />
-                            <div class="testimonial2__item__icon">
-                                <a href="#"><i class="fa-solid fa-play"></i></a>
-                            </div>
+                            <a href="https://www.youtube.com/watch?v=bY-mOdgz7zQ" class="testimonial2__item__icon video-popup">
+                                <i class="fa-solid fa-play"></i>
+                            </a>
                         </div>
                         <div class="testimonial2__item__main">
                             <div class="testimonial2__item__star">
@@ -392,10 +399,10 @@
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="testimonial2__item">
                         <div class="testimonial2__item__img">
-                            <img src="assets/img/testimonial3.jpg" alt="testimonial 3" />
-                            <div class="testimonial2__item__icon">
-                                <a href="#"><i class="fa-solid fa-play"></i></a>
-                            </div>
+                        <img src="assets/img/testimonial3.jpg" alt="testimonial 3" />
+                            <a href="https://www.youtube.com/watch?v=bHHuozuq_Kk" class="testimonial2__item__icon video-popup">
+                                <i class="fa-solid fa-play"></i>
+                            </a>
                         </div>
 
                         <div class="testimonial2__item__main">
@@ -424,9 +431,9 @@
                     <div class="testimonial2__item">
                         <div class="testimonial2__item__img">
                             <img src="assets/img/testimonial4.jpg" alt="testimonial 4" />
-                            <div class="testimonial2__item__icon">
-                                <a href="#"><i class="fa-solid fa-play"></i></a>
-                            </div>
+                            <a href="https://www.youtube.com/watch?v=5bGo3N7Mx7A" class="testimonial2__item__icon video-popup">
+                                <i class="fa-solid fa-play"></i>
+                            </a>
                         </div>
 
                         <div class="testimonial2__item__main">
@@ -455,9 +462,9 @@
                     <div class="testimonial2__item">
                         <div class="testimonial2__item__img">
                             <img src="assets/img/testimonial5.jpg" alt="testimonial 5" />
-                            <div class="testimonial2__item__icon">
-                                <a href="#"><i class="fa-solid fa-play"></i></a>
-                            </div>
+                            <a href="https://www.youtube.com/watch?v=NRw2GDaI8Wc" class="testimonial2__item__icon video-popup">
+                                <i class="fa-solid fa-play"></i>
+                            </a>
                         </div>
 
                         <div class="testimonial2__item__main">
@@ -813,5 +820,23 @@
         </div>
     </div>
     <!-- ========== footer section ends ========== -->
+
+    <!-- ========== jquery js ========== -->
+    <script src="assets/js/code.jquery.com_jquery-1.12.4.min.js"></script>
+    <!-- ========== header js start ========== -->
+    <script>
+        function myFunction() {
+          var element = document.getElementById("myDIV");
+          console.log(element);
+          element.classList.toggle("mystyle");
+        }
+    </script>
+    <!-- ========== header js ends ========== -->
+    <!-- ========== magnicic popup js ========== -->
+    <script src="assets/js/jquery.magnific-popup.js"></script>
+    <!-- ========== swiper bundle js ========= -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- ========== active js ========== -->
+    <script src="assets/js/active.js"></script>
 </body>
 </html>

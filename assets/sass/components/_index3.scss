@@ -2,6 +2,9 @@
 .header3 {
     &.header {
         background-color: $color-primary-2;
+        .checkbtn {
+            color: $color-white;
+        }
         .header__start {
             ul {
                 li {
@@ -81,10 +84,9 @@
             align-items: center;
             margin: 0 auto;
             background-color: $color-secondary-3;
-            a {
-                i {
-                    color: $color-white;
-                }
+            text-decoration: none;
+            i {
+                color: $color-white;
             }
         }
     }

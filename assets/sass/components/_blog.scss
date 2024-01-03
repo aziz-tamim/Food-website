@@ -17,12 +17,15 @@
             width: 100%;
             margin-bottom: 20px;
         }
-        h3 {
-            font-size: 25px;
-            font-weight: 600;
-            margin: 0;
-            margin-bottom: 10px;
-            color: $color-primary;
+        a {
+            text-decoration: none;
+            h3 {
+                font-size: 25px;
+                font-weight: 600;
+                margin: 0;
+                margin-bottom: 10px;
+                color: $color-primary;
+            }
         }
         .text {
             color: $color-primary;
@@ -68,7 +71,8 @@
 
     &__main {
         display: flex;
-        gap: 100px;
+        gap: 15px;
+        justify-content: space-between;
         margin-bottom: 20px;
     }
     &__item {
